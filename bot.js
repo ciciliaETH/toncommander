@@ -2,7 +2,7 @@ import { Telegraf } from 'telegraf';
 
 const TOKEN = '7031690916:AAEWkmNdc4fB9nepnjagao_3pTLLLuRpCdY';
 const bot = new Telegraf(TOKEN);
-const web_link = 'https://xtontonofficial/';
+const web_link = 'https://x.com/xtontonofficial/';
 const chanel_link = 'https://t.me/tontonofficial/';
 
 bot.start((ctx) =>
