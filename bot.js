@@ -2,7 +2,7 @@ import { Telegraf } from 'telegraf';
 
 const TOKEN = '7031690916:AAEWkmNdc4fB9nepnjagao_3pTLLLuRpCdY';
 const bot = new Telegraf(TOKEN);
-const web_link = 'https://tonton-chi.vercel.app/';
+const web_link = 'https://xtontonofficial/';
 const chanel_link = 'https://t.me/tontonofficial/';
 
 bot.start((ctx) =>
@@ -18,13 +18,13 @@ Don't forget about your friends — bring them to the game and collect even more
         inline_keyboard: [
           [
             {
-              text: 'Play now 🐶',
+              text: 'X',
               url: web_link,
             },
           ],
           [
             {
-              text: 'Join our Channel',
+              text: 'Telegram',
               url: chanel_link,
             },
           ],
