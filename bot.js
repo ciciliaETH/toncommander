@@ -1,18 +1,15 @@
 import { Telegraf } from 'telegraf';
 
-const TOKEN = '7031690916:AAEWkmNdc4fB9nepnjagao_3pTLLLuRpCdY';
+const TOKEN = '7196703719:AAGxH4OZS52PNPiwjhLy2LJ4k9fg46-QUo8';
 const bot = new Telegraf(TOKEN);
-const web_link = 'https://x.com/xtontonofficial/';
-const chanel_link = 'https://t.me/tontonofficial/';
+const web_link = 'https://x.com/commanderton';
+const chanel_link = 'https://t.me/commander_ton';
 
 bot.start((ctx) =>
   ctx.reply(
-    `Hello! Welcome to Tonton’s Crypto Adventure 🐕
-You are now the guardian of Tonton, the adventurous pup on the TON network.
-Which path will you choose? Tap the screen, collect bones, boost your passive income,
-and develop your own strategy.
-We’ll definitely appreciate your efforts once the token is listed (the dates are coming soon).
-Don't forget about your friends — bring them to the game and collect even more rewards together!`,
+    `Welcome to official commander ton telegram group 🐕
+    Commander is meme dog TON chain, We create bot for ton chain, let's join with us and lead the game on ton
+    Let's lead the game with commander`,
     {
       reply_markup: {
         inline_keyboard: [
