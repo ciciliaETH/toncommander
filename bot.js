@@ -7,9 +7,7 @@ const chanel_link = 'https://t.me/commander_ton';
 
 bot.start((ctx) =>
   ctx.reply(
-    `Welcome to official commander ton telegram group 🐕
-    Commander is meme dog TON chain, We create bot for ton chain, let's join with us and lead the game on ton
-    Let's lead the game with commander`,
+    `Welcome to official commander ton telegram group 🐕. Commander is meme dog TON chain, We create bot for ton chain, let's join with us and lead the game on ton. Let's lead the game with commander`,
     {
       reply_markup: {
         inline_keyboard: [
